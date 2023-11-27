@@ -1,0 +1,246 @@
+/*PAGINA PRINCIPAL*/
+body {
+    background-color: rgb(19, 74, 122);
+    text-align: justify;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+header {
+    text-align: center;
+    background-color: rgb(67, 140, 204);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+nav {
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+section {
+    border: 2px solid black;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(109, 34, 179);
+}
+
+article {
+    border: 2px solid black;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: rgb(179, 142, 228);
+    box-shadow: 0 20px 15px rgba(0, 0, 0, 0.486);
+
+}
+
+footer {
+    border: 1px solid black;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(49, 32, 150);
+
+}
+
+.imagenprincipal {
+    text-align: center;
+    height: 330px;
+
+}
+
+/*LISTAS*/
+#mainlista{
+    display: flex;
+}
+.desordenada {
+    color: white;
+    background-color: rgb(151, 25, 151);
+    text-align: center;
+}
+
+article.desordenada {
+    background-color: violet;
+    text-align: left;
+}
+
+.desordenado {
+    list-style-type: circle;
+}
+
+.ordenada {
+    color: white;
+    background-color: rgb(111, 21, 196);
+    text-align: center;
+}
+
+article.ordenada {
+    background-color: rgb(143, 92, 209);
+    text-align: left;
+}
+
+ol.romano {
+    list-style-type: upper-roman;
+
+}
+
+.descriptiva {
+    color: white;
+    background-color: rgb(80, 10, 146);
+    text-align: center;
+}
+
+article.descriptiva {
+    background-color: rgb(158, 18, 107);
+    text-align: left;
+}
+
+a.navegacion {
+    color: mistyrose;
+    font-size: medium;
+}
+
+header.lista {
+    background-color: rgb(67, 140, 204);
+}
+
+.navegacion {
+    padding: 5px;
+}
+
+.flistas {
+    color: white;
+    background-color: rgb(49, 32, 150);
+}
+
+
+
+/*IMAGENES*/
+
+#fecha-actual {
+    text-align: center;
+}
+
+.imagenes {
+    background-color: rgb(111, 21, 196);
+    color: white;
+}
+
+.articulo1img {
+    background-color: rgb(80, 12, 143);
+    margin-bottom: 20px;
+}
+
+.pieimg {
+    background-color: rgb(49, 32, 150);
+    color: white;
+}
+
+#imagen {
+    background-color: rgb(67, 140, 204);
+}
+
+div.image {
+    text-align: center;
+}
+
+img.image {
+    height: 50%;
+    width: 50%;
+}
+
+/*ETIQUETAS BASICAS*/
+
+h5,
+h4 {
+    font-size: large;
+}
+
+/*tablas*/
+
+main.tablas {
+    color: white;
+    text-align: center;
+}
+
+table,td,tr,th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    margin: auto;
+}
+
+th {
+    color: rgb(0, 0, 0);
+}
+
+.enctablas {
+    color: rgb(0, 255, 34);
+}
+
+/*bloques*/
+.mainenlaces {
+    color: white;
+}
+
+div{
+    font-family:cursive;
+    font-size:medium;
+    text-align: center;
+
+}
+
+.encabezado {
+    color: rgb(0, 255, 34);
+    text-align: center;
+}
+
+/*Enlaces*/
+.encabezadoenlaces {
+    color: rgb(0, 255, 34);
+}
+
+.ejemplo {
+    color: rgb(235, 232, 65);
+}
+
+/*Etiquetas Semanticas*/
+main.etiquetassemanticas {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sectionsemantica {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.semanticas {
+    flex-grow: 1;
+}
+
+.semanticas table {
+    width: 100%;
+    height: 160%;
+    margin-top: 12px;
+    
+}
+
+.articulo {
+    flex: 0 0 60%; 
+    margin-right: 20px;
+
+}
+
+.semanticadesordenada {
+    
+    margin-top: 3%;
+    margin-left: 0;
+}

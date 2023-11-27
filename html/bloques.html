@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloque y clases - id</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="shortcut icon" href="../images/bloques.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Bloques</h1>
+        <details>
+            <summary>Navegación</summary>
+            <nav class="navegacion">
+                <a href="../index.html" class="navegacion">Pagina principal </a>
+                <a href="./formatos-de-texto.html" class="navegacion">Formato de texto</a>
+                <a href="./etiquetas-basicas.html" class="navegacion" >Etiquetas basicas</a>
+                <a href="./imagenes.html" class="navegacion">Imagenes</a>
+                <a href="./enlaces.html" class="navegacion">Enlaces</a>
+                <a href="./listas.html" class="navegacion">Listas</a>
+                <a href="./tablas.html" class="navegacion">Tablas</a>
+                <a href="./estilos.html" class="navegacion" >Estilos</a>
+                <a href="./etiquetas-semanticas.html" class="navegacion" >Etiquetas semanticas</a>
+            </nav>
+        </details>
+    </header>
+
+    <main class="mainenlaces">
+
+        <div>
+            <p>Cada elemento HTML tiene un valor de visualización predeterminado, según el tipo de elemento que sea.</p>
+            <p>Los dos valores de visualización más comunes son bloque y en línea.</p>
+        </div>
+
+        <h2 class="encabezado">Elementos a nivel de bloque</h2>
+
+        <div>
+            <p>Un elemento a nivel de bloque siempre comienza en una nueva línea y los navegadores agregan
+                automáticamente algo de espacio (un margen) antes y después del elemento.</p>
+            <p>Dos elementos de bloque comúnmente utilizados son: &lt; p &gt; y &lt; div &gt;.</p>
+            <p>El elemento <strong> &lt; p &gt;</strong> define un párrafo en un documento HTML.</p>
+            <p>El elemnto <strong>&lt; div &gt;</strong> define una división o una sección en un documento HTML.</p>
+        </div>
+
+        <table>
+            <caption>Estos son los elementos a nivel de bloque en HTML:</caption>
+            <tr>
+                <th>&lt; address &gt;</th>
+                <th>&lt; article &gt;</th>
+                <th>&lt; aside &gt;</th>
+                <th>&lt; blockquote &gt;</th>
+                <th>&lt; canvas &gt;</th>
+                <th>&lt; dd &gt;</th>
+            </tr>
+            <tr>
+                <td>&lt; div &gt;</td>
+                <td>&lt; dl &gt;</td>
+                <td>&lt; dt &gt;</td>
+                <td>&lt; fieldset &gt;</td>
+                <td>&lt; figcaption &gt;</td>
+                <td>&lt; figure &gt;</td>
+
+            </tr>
+            <tr>
+                <td>&lt; footer &gt;</td>
+                <td>&lt; form &gt;</td>
+                <td>&lt; h1 &gt; - &lt; h6 &gt;</td>
+                <td>&lt; header &gt;</td>
+                <td>&lt; hr &gt;</td>
+                <td>&lt; li &gt;</td>
+            </tr>
+            <tr>
+                <td>&lt; main &gt;</td>
+                <td>&lt; nav &gt;</td>
+                <td>&lt; noscript &gt;</td>
+                <td>&lt; ol &gt;</td>
+                <td>&lt; p &gt;</td>
+                <td>&lt; pre &gt;</td>
+            </tr>
+            <tr>
+                <td>&lt; section &gt;</td>
+                <td>&lt; table &gt;</td>
+                <td>&lt; tfoot &gt;</td>
+                <td>&lt; ul &gt;</td>
+                <td>&lt; video &gt;</td>
+                <td></td>
+            </tr>
+
+
+        </table>
+        <h2 class="encabezado">Elementos en línea</h2>
+        <div>
+            <p>Un elemento en línea no comienza en una nueva línea.</p>
+            <p>Un elemento en línea solo ocupa el ancho necesario.</p>
+            <p>Este es <span> un elemento <strong>&lt; span &gt;</strong> dentro de</span> un parrafo</p>
+        </div>
+        <p></p>
+        <table>
+            <tr>
+                <th>&lt; a &gt;</th>
+                <th>&lt; abbr &gt;</th>
+                <th>&lt; acronym &gt;</th>
+                <th>&lt; b &gt;</th>
+                <th>&lt; bdo &gt;</th>
+                <th>&lt; big &gt;</th>
+
+            </tr>
+            <tr>
+                <td>&lt; br &gt;</td>
+                <td>&lt; button &gt;</td>
+                <td>&lt; cite &gt;</td>
+                <td>&lt; code &gt;</td>
+                <td>&lt; dfn &gt;</td>
+                <td>&lt; em &gt;</td>
+            </tr>
+            <tr>
+                <td>&lt; i &gt;</td>
+                <td>&lt; img &gt;</td>
+                <td>&lt; input &gt;</td>
+                <td>&lt; kbd &gt;</td>
+                <td>&lt; label &gt;</td>
+                <td>&lt; map &gt;</td>
+            </tr>
+            <tr>
+                <td>&lt; object &gt;</td>
+                <td>&lt; output &gt;</td>
+                <td>&lt; q &gt;</td>
+                <td>&lt; samp &gt;</td>
+                <td>&lt; script &gt;</td>
+                <td>&lt; select &gt;</td>
+            </tr>
+            <tr>
+                <td>&lt; samall &gt;</td>
+                <td>&lt; span &gt;</td>
+                <td>&lt; strong &gt;</td>
+                <td>&lt; sub &gt;</td>
+                <td>&lt; sup &gt;</td>
+                <td>&lt; textarea &gt;</td>
+            </tr>
+            <tr>
+                <td>&lt; time &gt;</td>
+                <td>&lt; tt &gt;</td>
+                <td>&lt; var &gt;</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+        </table>
+
+        <h2 class="encabezado">El elemento &lt; div &gt;</h2>
+
+        <div>
+            <p>Se utiliza a menudo como contenedor para otros elementos HTML.</p>
+            <p>No tiene atributos obligatorios, pero <strong>style </strong> y <strong>class </strong>son
+                <strong>id</strong> comunes.
+            </p>
+            <p>Cuando se usa junto con CSS, se puede usar para diseñar bloques de contenido.</p>
+        </div>
+
+        <h2 class="encabezado">El elemnto &lt; span &gt;</h2>
+
+        <div>
+            <p>Es un contenedor en línea que se utiliza para marcar una parte de un texto o una parte de un documento.
+            </p>
+            <p>No tiene atributos obligatorios, pero <strong>style </strong> y <strong>class </strong>son
+                <strong>id</strong>
+                comunes.
+            </p>
+            <p>Cuando se usa junto con CSS, se puede usar para diseñar bloques de contenido.</p>
+        </div>
+
+        <h1 class="encabezado">Atributo de clase HTMl</h1>
+
+        <div>
+            <p>Se utiliza para especificar una clase para un elemento HTML.</p>
+            <p>Varios elementos HTML pueden compartir la misma clase.</p>
+            <p>El atributo <strong>class</strong> se utiliza a menudo para señalar el nombre de una clase en una hoja de
+                estilo. También puede ser utilizado por JavaScript para acceder y manipular elementos con el nombre de
+                clase específico.</p>
+        </div>
+
+        <h2 class="encabezado">La Sintaxis de la clase</h2>
+
+        <div>
+            <p>Para crear una clase; escriba un carácter de punto (.), seguido del nombre de una clase. Luego, defina
+                las propiedades CSS entre llaves {}
+            </p>
+        </div>
+
+        <h2 class="encabezado">Múltiples clases</h2>
+
+        <div>
+            <p>Los elementos HTML pueden pertenecer a más de una clase.</p>
+        </div>
+
+        <h3 class="encabezado">Ejemplo</h3>
+
+        <div>
+
+            <p>En el siguiente ejemplo, el primer elemento &lt; h2 &gt;pertenece tanto a la clase <strong>city</strong>
+                como a la clase <strong>main</strong>, y obtendrá los estilos CSS de ambas clases:</p>
+        </div>
+
+        <p>&lt; h2 class ="city main"&gt; London &lt; h2 &gt;</p>
+        <p>&lt; h2 class="city"&gt; Paris &lt; h2 &gt;</p>
+        <p>&lt; h2 class="city"&gt; Tokyo &lt; h2 &gt;</p>
+
+        <h2 class="encabezado">Diferentes elementos pueden compartir la misma clase</h2>
+        <div>
+
+            <p>Diferentes elementos HTML pueden apuntar al mismo nombre de clase.</p>
+        </div>
+        <h1 class="encabezado">Atributo de identificación HTML</h1>
+
+        <div>
+            <p>El atributo HTML <strong>id</strong> se utiliza para especificar una identificación única para un
+                elemento HTML.</p>
+
+            <p>No puedes tener más de un elemento con el mismo id en un documento HTML.</p>
+
+            <p>El atributo <strong>id</strong> se utiliza para señalar una declaración de estilo específica en una hoja
+                de estilo. JavaScript también lo utiliza para acceder y manipular el elemento con la identificación
+                específica.</p>
+
+            <p>La sintaxis de id es: escriba un carácter almohadilla (#), seguido de un nombre de id. Luego, defina las
+                propiedades CSS entre llaves {}.</p>
+        </div>
+
+        <h3 class="encabezado">Ejemplo</h3>
+        <div>
+            <p>&lt;!DOCTYPE html &gt;</p>
+            <p>&lt; html &gt;</p>
+            <p>&lt; head &gt;</p>
+            <p>&lt; style &gt;</p>
+            <p>#myHeader {</p>
+            <p>background-color: lightblue;</p>
+            <p>color: black;</p>
+            <p>padding: 40px;</p>
+            <p>text-align: center;</p>
+            <p>}</p>
+            <p>&lt;/ style &gt;</p>
+            <p>&lt;/ head &gt;</p>
+            <p>&lt; body &gt;</p>
+            <p>&lt; h1 id="myHeader"&gt;My Header &lt;/ h1 &gt;</p>
+            <p>&lt;/ body &gt;</p>
+            <p>&lt;/ html &gt;</p>
+        </div>
+
+            <h2 class="encabezado">Diferencia entre clase e identificación</h2>
+            <div>
+
+
+                <p>Un nombre de clase puede ser usado por múltiples elementos HTML, mientras que un nombre de
+                    identificación
+                    solo debe ser usado por un elemento HTML dentro de la página</p>
+            </div>
+
+            <h2 class="encabezado">Marcadores HTML con Id y Enlaces</h2>
+            <div>
+                <p>Los marcadores HTML se utilizan para permitir a los lectores saltar a partes específicas de una
+                    página
+                    web.</p>
+                <p>Los marcadores pueden resultar útiles si su página es muy larga.</p>
+                <p>Para utilizar un marcador, primero debe crearlo y luego agregarle un enlace.</p>
+                <p>Luego, cuando se hace clic en el enlace, la página se desplazará hasta la ubicación con el marcador.
+                </p>
+            </div>
+
+            <h3 class="encabezado">Primero, crea un marcador con el atributo <strong>id</strong>.</h3>
+            <p>&lt; h2 &gt;id="C4" &gt; Capítulo 2&lt; /h2 &gt;</p>
+            <h3 class="encabezado">Luego, agregue un enlace al marcador ("Saltar al
+                Capítulo 4"), desde la misma página:</h3>
+            <p>&lt; a href="#C4" &gt;Saltar al capítulo 4 &lt; /a &gt;</p>
+            <h3 class="encabezado"> O agregue un enlace al marcador ("Saltar al
+                Capítulo 4"), desde otra página:</h3>
+            <p>&lt; a href="html_demo.html#C4 &gt; Saltal al capítulo 4 &lt;/ a &gt;</p>
+
+    </main>
+
+    <footer class="flistas">
+        <p>Pagina Web echa por Robert Y Sergio</p>
+        <a href="./formulario.html" class="flistas">Contacto</a>
+        <p id="fecha-actual"></p>
+        <script src="../jss/script.js"></script>
+    </footer>
+
+</body>
+</html>

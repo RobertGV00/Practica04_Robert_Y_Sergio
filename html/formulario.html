@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<!-- Añadir un formulario de contacto con varios controles -->
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="shortcut icon" href="../images/contact-page.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <h1>Datos de Contacto</h1>
+        <details>
+            <summary>Navegación</summary>
+            <nav class="navegacion">
+                <a href="../index.html" class="navegacion">Pagina principal </a>
+                <a href="./formatos-de-texto.html" class="navegacion">Formato de texto</a>
+                <a href="./etiquetas-basicas.html" class="navegacion">Etiquetas basicas</a>
+                <a href="./imagenes.html" class="navegacion">Imagenes</a>
+                <a href="./enlaces.html" class="navegacion">Enlaces</a>
+                <a href="./listas.html" class="navegacion">Listas</a>
+                <a href="./tablas.html" class="navegacion">Tablas</a>
+                <a href="./bloques.html" class="navegacion" >Bloques</a>
+                <a href="./estilos.html" class="navegacion" >Estilos</a>
+                <a href="./etiquetas-semanticas.html" class="navegacion" >Etiquetas semanticas</a>
+            </nav>
+        </details>
+    </header>
+    <main>
+
+        <section>
+            <h4>Formulario</h4>
+            <form action="mailto:robertgv2304@gmail.com" method="get">
+                <fieldset>
+                    <label for="nombre">Nombre</label> <input type="text" name="nombre" id="nombre" required
+                        placeholder="Robert Y Sergio">
+                    <label for="apellido"> &nbsp; &nbsp; &nbsp; &nbsp; Apellido</label> <input type="text"
+                        name="apellido" id="apellido" required placeholder="Robert Y Sergio">
+                    <label for="email"> &nbsp; &nbsp; &nbsp; &nbsp; Email</label> <input type="email" name="email"
+                        id="email" required placeholder="email@gmail.com">
+                </fieldset>
+                <br>
+
+                <fieldset>
+                    <legend>Asignatura/s Favorita/s</legend>
+                    <input type="checkbox" name="programación" id="programación"> <label
+                        for="programación">Programación</label>
+                    <br>
+                    <input type="checkbox" name="lenguaje" id="lenguaje"> <label for="lenguaje">Lenguaje de
+                        Marcas</label>
+                    <br>
+                    <input type="checkbox" name="bases" id="bases"> <label for="bases">Bases de Datos</label>
+                    <br>
+                    <input type="checkbox" name="entornos" id="entornos"> <label for="entornos">Entornos de
+                        desarollo</label>
+                    <br>
+                    <input type="checkbox" name="fol" id="fol"> <label for="fol">Formación y Orientación Laboral</label>
+                    <br>
+                    <input type="checkbox" name="sistemas" id="sistemas"> <label for="sistemas">Sistemas
+                        Informaticos</label>
+                    <br>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Notas</legend>
+                    <select name="nota1" id="nota1">
+                        <option value="programación" disabled selected hidden>Programación</option>
+                        <option value="cero">0</option>
+                        <option value="uno">1</option>
+                        <option value="dos">2</option>
+                        <option value="tres">3</option>
+                        <option value="cuatro">4</option>
+                        <option value="cinco">5</option>
+                        <option value="seis">6</option>
+                        <option value="siete">7</option>
+                        <option value="ocho">8</option>
+                        <option value="nueve">9</option>
+                        <option value="diez">10</option>
+                    </select>
+                    <br>
+                    <select name="nota2" id="nota2">
+                        <option value="Lenguaje de Marcas" disabled selected hidden>Lenguaje de Marcas</option>
+                        <option value="cero">0</option>
+                        <option value="uno">1</option>
+                        <option value="dos">2</option>
+                        <option value="tres">3</option>
+                        <option value="cuatro">4</option>
+                        <option value="cinco">5</option>
+                        <option value="seis">6</option>
+                        <option value="siete">7</option>
+                        <option value="ocho">8</option>
+                        <option value="nueve">9</option>
+                        <option value="diez">10</option>
+                    </select>
+                    <br>
+                    <select name="nota3" id="nota3">
+                        <option value="Bases de Datos" disabled selected hidden>Bases de Datos</option>
+                        <option value="cero">0</option>
+                        <option value="uno">1</option>
+                        <option value="dos">2</option>
+                        <option value="tres">3</option>
+                        <option value="cuatro">4</option>
+                        <option value="cinco">5</option>
+                        <option value="seis">6</option>
+                        <option value="siete">7</option>
+                        <option value="ocho">8</option>
+                        <option value="nueve">9</option>
+                        <option value="diez">10</option>
+                    </select>
+                    <br>
+                    <select name="nota4" id="nota4">
+                        <option value="Entornos de desarollo" disabled selected hidden>Entornos de desarollo</option>
+                        <option value="cero">0</option>
+                        <option value="uno">1</option>
+                        <option value="dos">2</option>
+                        <option value="tres">3</option>
+                        <option value="cuatro">4</option>
+                        <option value="cinco">5</option>
+                        <option value="seis">6</option>
+                        <option value="siete">7</option>
+                        <option value="ocho">8</option>
+                        <option value="nueve">9</option>
+                        <option value="diez">10</option>
+                    </select>
+                    <br>
+                    <select name="nota5" id="nota5">
+                        <option value="Formación y Orientación Laboral" disabled selected hidden>Formación y Orientación Laboral</option>
+                        <option value="cero">0</option>
+                        <option value="uno">1</option>
+                        <option value="dos">2</option>
+                        <option value="tres">3</option>
+                        <option value="cuatro">4</option>
+                        <option value="cinco">5</option>
+                        <option value="seis">6</option>
+                        <option value="siete">7</option>
+                        <option value="ocho">8</option>
+                        <option value="nueve">9</option>
+                        <option value="diez">10</option>
+                    </select>
+                    <br>
+                    <select name="nota6" id="nota6">
+                        <option value="Sistemas Informaticos" disabled selected hidden>Sistemas Informaticos</option>
+                        <option value="cero">0</option>
+                        <option value="uno">1</option>
+                        <option value="dos">2</option>
+                        <option value="tres">3</option>
+                        <option value="cuatro">4</option>
+                        <option value="cinco">5</option>
+                        <option value="seis">6</option>
+                        <option value="siete">7</option>
+                        <option value="ocho">8</option>
+                        <option value="nueve">9</option>
+                        <option value="diez">10</option>
+                    </select>
+                </fieldset>
+
+                <br>
+                <fieldset>
+                    <legend>Opinion del curso y quejas</legend>
+                    <textarea name="opinion" id="opinion" cols="60" rows="10"
+                        placeholder="Escribe aqui lo que desesas"></textarea>
+                </fieldset>
+                <br>
+                <button type="submit">Enviar información</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer class="flistas">
+        <p>Pagina Web echa por Robert Y Sergio</p>
+        <p id="fecha-actual"></p>
+        <script src="../jss/script.js"></script>
+    </footer>
+
+</body>
+
+</html>

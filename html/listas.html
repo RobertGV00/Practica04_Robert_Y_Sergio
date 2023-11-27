@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="shortcut icon" href="../images/list.ico" type="image/x-icon">
+</head>
+
+<body>
+
+    <header class="lista">
+        <h1>Listas</h1>
+        <details>
+            <summary>Navegación</summary>
+            <nav class="navegacion">
+                <a href="../index.html" class="navegacion">Pagina principal </a>
+                <a href="./formatos-de-texto.html" class="navegacion">Formato de texto</a>
+                <a href="./etiquetas-basicas.html" class="navegacion">Etiquetas basicas</a>
+                <a href="./imagenes.html" class="navegacion">Imagenes</a>
+                <a href="./enlaces.html" class="navegacion">Enlaces</a>
+                <a href="./tablas.html" class="navegacion">Tablas</a>
+                <a href="./bloques.html" class="navegacion" >Bloques</a>
+                <a href="./estilos.html" class="navegacion" >Estilos</a>
+                <a href="./etiquetas-semanticas.html" class="navegacion" >Etiquetas semanticas</a>
+            </nav>
+        </details>
+    </header>
+
+    <main id="mainlista">
+        <section class="desordenada" id="desordenada">
+            <h2>Listas Desordenadas </h2>
+            <p>Una lista desordenada, empieza con un &lt;ul&gt; y acaba con un &lt;/ul&gt;. <br>Y luego usamos un
+                &lt;li&gt; para escribir dentro de ellas. &lt;/li&gt;</p>
+            <article class="desordenada">
+                <h4>Desordenada con circulos llenos</h4>
+                <ul>
+                    <li>Coca-cola</li>
+                    <li>Pepsi</li>
+                    <li>Aquarius de limón</li>
+                    <li>Fanta</li>
+                </ul>
+
+                <h4>Desordenada con diferentes niveles</h4>
+                <ul class="desordenado">
+                    <li>Jack Daniels
+                        <ul>
+                            <li>Diferente Nivel 1</li>
+                            <li>Diferente</li>
+                        </ul>
+                    </li>            
+                </ul>
+
+            </article>
+        </section>
+
+        <section class="ordenada" id="ordenada">
+            <h2>Listas Ordenadas </h2>
+            <p>Una lista ordenadas, empieza con un &lt;ol&gt; y acaba con un &lt;/ol&gt;. <br>Y luego usamos un
+                &lt;li&gt; para escribir dentro de ellas. &lt;/li&gt; </p>
+            <article class="ordenada">
+                <h4>Ordenada con numeros decimales</h4>
+                <ol>
+                    <li>Articulo 1</li>
+                    <li>Articulo 2</li>
+                    <li>Articulo 3</li>
+                    <li>Articulo 4</li>
+                </ol>
+
+                <h4>Ordenada con numeros romanos a difernte nivel </h4>
+
+                <ol class="romano">
+                    <li>Articulo 1
+                        <ol class="romano">
+                            <li>Artiulo 1.1</li>
+                            <li>Articulo 1.2</li>
+                        </ol>
+                    </li>
+                    
+                </ol>
+            </article>
+        </section>
+
+        <section class="descriptiva" id="descriptiva">
+            <h2>Listas Descriptivas</h2>
+            <p>Una lista descriptiva es una lista de terminos con una descripción de cada uno. <br>Para usar esta lista,
+                lo primero que debemos hacer es abrir la etiqueta &lt;dl&gt; que define la lista, y dentro de esta
+                etiqueta usamos primero la etiqueta &lt;dt&gt; que define los terminos, y la ultima que usariamos sería
+                la etiqueta &lt;dd&gt; que sería la descripción del objeto. todas estas etiquetas se deben cerrar al
+                acabar con ellas. </p>
+            <article class="descriptiva">
+                <h4>Ejemplo de Descriptiva</h4>
+                <dl class="intento">
+                    <dt>Articulo 1</dt>
+                    <dd>Descripción articulo 1</dd>
+                    <dt>Articulo 2</dt>
+                    <dd>Descripción artiuclo 2</dd>
+                </dl>
+            </article>
+        </section>
+    </main>
+
+    <footer class="flistas">
+        <p>Pagina Web echa por Robert Y Sergio</p>
+        <a href="./formulario.html" class="flistas">Contacto</a>
+        <p id="fecha-actual"></p>
+        <script src="../jss/script.js"></script>
+    </footer>
+</body>
+
+</html>

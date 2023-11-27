@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etiquetas Basicas</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="shortcut icon" href="../images/texto.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <h1>Etiquetas Basicas</h1>
+        <details>
+            <summary>Navegación</summary>
+            <nav class="navegacion">
+                <a href="../index.html" class="navegacion">Pagina principal </a>
+                <a href="./formatos-de-texto.html" class="navegacion">Formato de texto</a>
+                <a href="./imagenes.html" class="navegacion">Imagenes</a>
+                <a href="./enlaces.html" class="navegacion">Enlaces</a>
+                <a href="./listas.html" class="navegacion">Listas</a>
+                <a href="./tablas.html" class="navegacion">Tablas</a>
+                <a href="./bloques.html" class="navegacion" >Bloques</a>
+                <a href="./estilos.html" class="navegacion" >Estilos</a>
+                <a href="./etiquetas-semanticas.html" class="navegacion" >Etiquetas semanticas</a>
+            </nav>
+        </details>
+    </header>
+
+    <main>
+        <section>
+            <h4>Etiquetas Basicas</h4>
+
+            <article>
+                <h5>Parrafo</h5>
+                Si quieres especificar que se trata de un párrafo, podrías encerrar el texto con la etiqueta de párrafo
+                &lt;p&gt; Entre esta etiqueta va el parrafo deseado.&lt;/p&gt;
+            </article>
+
+            <article>
+                <h5>Anidar Elementos</h5>
+                <p>Puedes también colocar elementos dentro de otros elementos —esto se llama anidamiento</p>
+                <p>Como ejemplo usaremos la etiqueta &lt;strong&gt; que lo que hace es enfatizar una palabra o frase.
+                </p>
+                <p>&lt;<strong>Texto enfatizado</strong>&gt; Texto sin enfatizar</p>
+                <p>Muy importante, si una etiqueta la abres dentro de la &lt;p&gt;, cierrala dentro de la &lt;/p&gt;, no
+                    fuera de ella.</p>
+            </article>
+
+            <article>
+                <h5>Elementos Vacios</h5>
+                <p>Algunos elementos no poseen contenido, y son llamados elementos vacíos. Por ejemplo &lt;<a
+                        href="./imagenes.html">img</a>&gt;. Sobre la etiqueta &lt;img&gt; tenemos mas información en su
+                    apartado correspondiente.</p>
+            </article>
+
+            <h4>Marcado de Texto</h4>
+            <p>Esta sección cubrirá algunos de los elementos HTML básicos que usarás para el marcado de texto.</p>
+            <article>
+                <h5>Encabezados</h5>
+                <p>Los elementos de encabezado permiten especificar que ciertas partes del contenido son encabezados, o
+                    subencabezados del contenido</p>
+                <p>Los encabezados poseen <strong>seis niveles</strong>, desde &lt;h1&gt; hasta &lt;h6&gt;</p>
+            </article>
+
+            <article>
+                <h5><a href="./listas.html">Listas</a></h5>
+                <p>Mucho del contenido web está dado por listas, así que HTML tiene elementos especiales para ellas.
+                    Veremos mas sobre ellas en su apartado respectivo.</p>
+            </article>
+
+            <article>
+                <h5><a href="./enlaces.html">Vinculos</a></h5>
+                <p>Los vínculos o enlaces son muy importantes, son los que hacen de la web, la web. Veremos mas sobre
+                    ellos en su respectivo apartado.</p>
+            </article>
+        </section>
+
+        <section>
+            <h4>Anatomía de un documento HTML</h4>
+            <p>Hasta ahora has visto lo básico de elementos HTML individuales, pero estos no son muy útiles por sí
+                solos. Ahora verás cómo los elementos individuales son combinados para formar una página HTML entera</p>
+
+            <article>
+                <h5>&lt;!DOCTYPE html&gt;</h5>
+                <p> El tipo de documento. Es un preámbulo requerido</p>
+
+            </article>
+
+            <article>
+                <h5>&lt;html&gt;&lt;/html&gt;</h5>
+                <p>Este elemento encierra todo el contenido de la página entera y, a veces, se le conoce como el
+                elemento raíz</p>
+            </article>
+
+            <article>
+                <h5>&lt;head&gt;&lt;/head&gt;</h5>
+                <p>Este elemento actúa como un contenedor de todo aquello que quieres incluir en la página HTML que no
+                es contenido visible por los visitantes de la página</p>
+            </article>
+
+            <article>
+                <h5>&lt;meta charset="utf-8"&gt;</h5>
+                <p>Este elemento establece el juego de caracteres que tu documento usará en utf-8, que incluye casi
+                todos los caracteres de todos los idiomas humanos</p>
+            </article>
+
+            <article>
+                <h5>&lt;title&gt;&lt;/title&gt;</h5>
+                <p>Este elemento establece el título de tu página, que es el título que aparece en la pestaña o en la
+                barra de título del navegador cuando la página es cargada </p>
+            </article>
+
+            <article>
+                <h5>&lt;body&gt;&lt;/body&gt;</h5>
+                <p>Encierra todo el contenido que deseas mostrar a los usuarios web que visiten tu página, ya sea texto,
+                imágenes, videos, juegos, pistas de audio reproducibles, y demás.</p>
+            </article>
+        </section>
+    </main>
+
+    <footer class="flistas">
+        <p>Pagina Web echa por Robert Y Sergio</p>
+        <a href="./formulario.html" class="flistas">Contacto</a>
+        <p id="fecha-actual"></p>
+        <script src="../jss/script.js"></script>
+    </footer>
+</body>
+
+</html>

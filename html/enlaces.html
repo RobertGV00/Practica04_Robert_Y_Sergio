@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enlaces</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="shortcut icon" href="../images/link.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <details>
+            <summary>Navegación</summary>
+            <nav class="navegacion">
+                <a href="../index.html" class="navegacion">Pagina principal </a>
+                <a href="./formatos-de-texto.html" class="navegacion">Formato de texto</a>
+                <a href="./etiquetas-basicas.html" class="navegacion">Etiquetas basicas</a>
+                <a href="./imagenes.html" class="navegacion">Imagenes</a>
+                <a href="./listas.html" class="navegacion">Listas</a>
+                <a href="./tablas.html" class="navegacion">Tablas</a>
+                <a href="./bloques.html" class="navegacion">Bloques</a>
+                <a href="./estilos.html" class="navegacion">Estilos</a>
+                <a href="./etiquetas-semanticas.html" class="navegacion">Etiquetas semanticas</a>
+            </nav>
+        </details>
+    </header>
+
+    <main class="mainenlaces">
+
+        <p> Los enlaces permiten a los usuarios hacer clic para pasar de una página a otra.</p>
+       
+        <h2 class="encabezadoenlaces">HIPERVÍNCULOS</h2>
+        <p>Los enlaces HTML son hipervínculos.</p>
+        <p>Puede hacer clic en un enlace y saltar a otro documento. </p>
+        <p>Cuando mueves el mouse sobre un enlace, la flecha del mouse se convertirá en una manita.</p>
+        
+        <h2 class="encabezadoenlaces">ENLACES HTML: Sintaxis</h2>
+        <p>La etiqueta HTML a define un hipervínculo. Tiene la siguiente sintaxis:</p> 
+        <div>
+            
+          <p class="ejemplo"> &lt; a href="url" link text &gt;;</p>
+         </div>
+          <p>El atributo más importante del &lt; a &gt; elemento es el hrefatributo, que indica el destino del enlace.</p>
+          <p>El texto del enlace es la parte que será visible para el lector.</p>
+          <p>Al hacer clic en el texto del enlace, se enviará al lector a la dirección URL especificada.</p>
+          
+          <h3 class="encabezadoenlaces">Ejemplo</h3>
+    
+          <p>Este ejemplo muestra cómo crear un enlace a W3Schools.com:</p>
+          <div>
+            
+    
+          <p class="ejemplo">&lt; a href= "https://www.W3Schools.com/Visit W3Schools.com! &gt; a</p>
+          </div>
+          <p><strong>Nota:</strong> Los enlaces se pueden diseñar con CSS para darle otro aspecto</p>
+          
+          <h2 class="encabezadoenlaces">ENLACES HTML: El atributo de destino</h2>
+          <p> la página vinculada se mostrará en la ventana actual del navegador. Para cambiar esto, debe especificar otro destino para el enlace.</p>
+          <p>El atributo target especifíca dónde abrir el documento vinculado</p>
+          <p>Puede tener uno de los siguientes valores: </p>
+          <ul>
+            <li>_self: Por defecto abre el documento en la misma ventana en la que se hizo clic.</li>
+            <li>_blank: Abre el documento en una nueva ventana.</li>
+            <li>_parent: Abre el documento en el marco principal.</li>
+            <li>_top: Abre el documento en el cuerpo completo de la ventana.</li>
+          </ul>
+         
+          <h2 class="encabezadoenlaces">ENLACES HTML: Utilice una imagen como enlace</h2>
+          <p class="ejemplo">Simplemente coloque la etiqura&lt;img&gt; dentro de la etiqueta &lt;a&gt;</p>
+          
+          <h3 class="encabezadoenlaces">Ejemplo</h3>
+
+          <div>
+          <p class="ejemplo">&lt;a href = "default.asp"&gt;</p>
+          <p class="ejemplo">&lt;img src = "smiley.gif" alt = "HTML tutorial style = &gt;</p>
+          <p class="ejemplo">&lt;/a</p>
+          </div>
+          
+          <h3 class="encabezadoenlaces">Enlace a una dirección de correo electrónico</h3>
+          <p>mailto: dentro del href para crear un enlace que abra el programa de correo electrónico del ususario ( para permitirle enviar un nuevo correo electrónico).</p>
+          
+          <h3 class="encabezadoenlaces">Ejemplo</h3>
+          <div>
+           
+          <p class="ejemplo"> &lt;a href = "mailto: someone@example.com"&gt;enviar mail &lt;/a&gt;></p>
+         </div>
+          
+         <h3 class="encabezadoenlaces">Botón como enlaces</h3>
+
+          <p>Para utilizar un botón como enlace, debe agregar algún código JavaScript.</p>
+          
+          <h3 class="encabezadoenlaces">Títulos de enlaces</h3>
+
+          <p>El atributo title especifíca información adicional sobre un elemento.Suele mostrarse como texto de información sobre herramientas cuando el ratón se mueve sobre el elemento.</p>
+          
+          <h3 class="encabezadoenlaces">Ejemplo</h3>
+          <div>
+            
+          <p class="ejemplo">&lt;a href = "https://wwww____/ title = "___" &gt;___&lt;/a&gt; </p>
+          
+          </div>
+        
+          <h2 class="encabezadoenlaces">ENLACES HTML: Crear marcadores</h2>
+
+          <p>Pueden resultar útiles si la página es muy larga.</p>
+          <p>Para crear un marcador, primero cree el marcador y luego agréguele un enlace.Cuando se hace clic en el enlace, la página se desplazará hacia arriba o hacia abajo hasta la ubicación con el marcador.</p>
+          
+          <h3 class="encabezadoenlaces">Ejemplo</h3>
+
+          <dl>
+            <dt>Use id para crear un marcador</dt>
+            <dd><strong>&lt;h2 id = "C4"&gt;Capítulo 4&lt;/h2&gt;</strong></dd>
+            <dt>Luego agréguele un enlace al marcador(saltar al capítulo 4) desde la misma página.</dt>
+            <dd><strong>&lt;a href= "#C4"&gt;saltar capítulo 4&lt;/a&gt;</strong></dd>
+            <dd>También puedes agregar un enlace a un marcador en otra página</dd>
+          </dl>
+    </main>
+    
+    <footer class="flistas">
+        <p>Pagina Web echa por Robert Y Sergio</p>
+        <a href="./formulario.html" class="flistas">Contacto</a>
+        <p id="fecha-actual"></p>
+        <script src="../jss/script.js"></script>
+    </footer>
+
+</body>
+
+</html>

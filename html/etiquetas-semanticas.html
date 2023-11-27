@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etiquetas semanticas</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="shortcut icon" href="../images/label.ico" type="image/x-icon">
+
+</head>
+<body>
+    <header>
+        <h1>Etiquetas semanticas</h1>
+        <details>
+            <summary>Navegación</summary>
+            <nav class="navegacion">
+                <a href="../index.html" class="navegacion">Pagina principal </a>
+                <a href="./formatos-de-texto.html" class="navegacion">Formato de texto</a>
+                <a href="./etiquetas-basicas.html" class="navegacion" >Etiquetas basicas</a>
+                <a href="./imagenes.html" class="navegacion">Imagenes</a>
+                <a href="./enlaces.html" class="navegacion">Enlaces</a>
+                <a href="./listas.html" class="navegacion">Listas</a>
+                <a href="./tablas.html" class="navegacion">Tablas</a>
+                <a href="./bloques.html" class="navegacion" >Bloques</a>
+                <a href="./estilos.html" class="navegacion" >Estilos</a>
+            </nav>
+        </details>
+    </header>
+
+    <main class="etiquetassemanticas"> 
+        <section class="sectionsemantica">
+            <h4>Elementos semánticos HTML</h4>
+            
+            <ul class="semanticadesordenada">
+                <li>header: Encabezado.Representa un contenedor para contenido introductorio.Normalmente contiene: <ul>
+                    <li>uno o más elementos de encabezado (&lt;h1&gt;-&lt;h6&gt;) </li>
+                    <li>logotipo o icono</li>
+                    <li>información de autor</li>
+                </ul></li>
+                <li>nav: Define un conjunto de enlaces de navegación.</li>
+                <li>section: Define la sección de un documento</li>
+                <li>article: Especifíca contenido independente y autónomo.</li>
+                <li>aside: Define algún contenido aparte del contenido en el que se encuentra(como una barra lateral). </li>
+                <li>footer: Define un pie de página para un documento o sección.</li>
+            </ul>
+
+            <article class="articulo">
+                <h5>Elementos</h5>
+                <p>Un elemento semántico describe claramente su significado tanto para el navegador como para el desarrollador.</p>
+            <p>Ejemplos de elementos no semánticos: &lt;div &gt; y &lt;span&gt;- No dice nada sobre su contenido.</p>
+            <p>Ejemplos de elementos semánticos: &lt;form&gt;, &lt;table&gt;, y &lt;article&gt;- Define claramente su contenido</p>
+            </article>
+             
+            <aside class="semanticas">
+                <table class="semanticas">
+                    <tr>
+                        <th>header</th>    
+                    </tr>
+                    <tr>
+                        <td>div</td>
+                    </tr>
+                    <tr>
+                        <td>section</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>article</td>
+                    </tr>
+                    <tr>
+                        <td>footer</td>
+                    </tr>
+                </table>
+            </aside>
+
+            <article class="articulo">
+                <h5>Dispisicion</h5>Puede tener varios elementos &lt;header&gt; en un documento HTML.Sin embargo, &lt;header&gt; no se puede colocar dentro de un &lt;footer&gt; u &lt;address&gt; otro elemnto &lt;header&gt;</article>
+               
+            </section>
+
+        
+      
+    </main>
+    <footer class="flistas">
+        <p>Pagina Web echa por Robert Y Sergio</p>
+        <a href="./formulario.html" class="flistas">Contacto</a>
+        <p id="fecha-actual"></p>
+        <script src="../jss/script.js"></script>
+    </footer>
+
+</body>
+</html>

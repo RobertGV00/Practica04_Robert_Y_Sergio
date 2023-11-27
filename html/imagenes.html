@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagenes</title>
+    <link rel="stylesheet" href="../css/styles.css">    
+    <link rel="shortcut icon" href="../images/image.ico" type="image/x-icon">
+</head>
+<body>
+    <header id="imagen">
+        <h1>Imagenes</h1>
+        <details>
+            <summary>Navegación</summary>
+            <nav class="navegacion">
+                <a href="../index.html" class="navegacion">Pagina principal </a>
+                <a href="./formatos-de-texto.html" class="navegacion">Formato de texto</a>
+                <a href="./etiquetas-basicas.html" class="navegacion">Etiquetas basicas</a>
+                <a href="./enlaces.html" class="navegacion">Enlaces</a>
+                <a href="./listas.html" class="navegacion">Listas</a>
+                <a href="./tablas.html" class="navegacion">Tablas</a>
+                <a href="./bloques.html" class="navegacion" >Bloques</a>
+                <a href="./estilos.html" class="navegacion" >Estilos</a>
+                <a href="./etiquetas-semanticas.html" class="navegacion" >Etiquetas semanticas</a>
+            </nav>
+        </details>
+    </header>
+
+    <main>
+<section class="imagenes">
+<h2>Imagenes</h2>
+    <article class="articulo1img">
+        <h4>¿Como añadir una imagen a una pagina web?</h4>
+        <p>Para añadir una imagen a una pagina web, lo primero que tenemos que conocer es la etiqueta para insertarla, esta etiqueta es <b>&lt;img&gt;</b>. <br>
+        Dentro de esta etiqueta, tiene distintos atributos que iremos viendo para que son cada uno:</p>
+        <h4>Atributo src: </h4>
+        <p>El atributo src es el que se utliza para seleccionar la ubicación donde se encuentra la imagen almacenada. <b>&lt;img src="ubicacion-imagen"&gt;</b></p>
+        <h4>Atributo alt: </h4>
+        <p>Se usa para darle un texto a la imagen si esta no puede cargar por cualqueir motivo y es obligatoria. <br> <b>&lt;img src="ubicacion-imagen" alt="Descripcion imagen"&gt;</b> </p>
+        <p>Lo siguiente que habría que pensar es en el tamaño que daremos a la iamgen, que eso se hara en un css aparte, yo sugiero usar dentro de la img una clase o una id para poder darle un estilo concreto a cada imagen. </p>
+        <h5>Ejemplo de imagen:</h5>
+        <div class="image">
+            <img src="../images/_a9bcabfd-d003-48bb-9427-f218a33736bb.jpeg" alt="HTML" class="image">
+        </div>
+        
+    </article>
+
+    <article>
+        <h4>Favicon</h4>
+        <p>El favicón es el icono pequeño que se le coloca a una pagina web y es visible en la barra de navegación.
+            El favicon se debe añadir en la etiqueta head debajo del titulo. La etiqueta que usamos es la de &lt;link rel="shortcut icon" href="favicon.ico" type="image/x-icon"&gt;,
+            el nombre mas comun para un favicon es favicon.ico
+        </p>
+    </article>
+</section>
+    </main>
+
+    <footer class="pieimg">
+        <p>Pagina web echa por Robert Y Sergio</p>
+        <a href="./formulario.html" class="flistas">Contacto</a>
+        <p id="fecha-actual"></p>
+        <script src="../jss/script.js"></script>
+    </footer>
+</body>
+</html>
