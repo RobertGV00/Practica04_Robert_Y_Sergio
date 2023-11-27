@@ -244,3 +244,29 @@ main.etiquetassemanticas {
     margin-top: 3%;
     margin-left: 0;
 }
+
+/*Formulario*/
+
+input {
+    border-radius: 13px;
+    background-color: antiquewhite;
+    padding: 3px;
+}
+
+textarea {
+    border-radius: 15px;
+    background-color: antiquewhite;
+    padding: 10px;
+}
+
+select {
+    border-radius: 10px;
+    background-color: antiquewhite;
+    padding: 3px;
+}
+
+button {
+    border-radius: 15px;
+    background-color: antiquewhite;
+    padding: 5px;
+}
